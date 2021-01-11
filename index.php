@@ -8,4 +8,5 @@
     
     $website = new Initiate();
     $website->start();
+    
 ?>
