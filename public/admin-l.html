@@ -1,0 +1,126 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tech Benders | Log On to your account.</title>
+
+    <!-- META TAGS -->
+        <!-- ==================================================================================================== -->
+          <meta name="description" content="">
+          <meta name="keywords" content="">
+          <meta name="author" content="Edsofta">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ================================================================================================== -->
+        <!-- //META TAGS -->
+
+        <!-- PAGE TITLE -->
+        <!-- ================================================================================================== -->
+            <title>Tech Benders | Home</title>
+        <!-- ================================================================================================== -->
+        <!-- //PAGE TITLE -->
+
+        <!-- ALL INCLUDED STYLESHEETS -->
+        <!-- =================================================================================================== -->
+          <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+          <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+          <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+          <link rel="stylesheet" type="text/css" href="assets/icons/fa/css/all.css">
+           <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+          
+        <!-- =================================================================================================== -->
+        <!-- //ALL INCLUDED STYLESHEETS -->
+
+     
+        <style type="text/css">
+          .form_card{
+            box-shadow: 0px 4px 60px 5px rgba(196, 196, 196, 0.1);
+            border-radius: 30px !important;
+          }
+      </style>
+
+
+    <!-- //ALL INCLUDED SCRIPTS -->
+  
+</head>
+<body class="animated fadeIn bg-light d-flex justify-content-center align-items-center vh-100 p-4 p-lg-0">
+
+
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-6 mt-5 d-none d-lg-block offset-1 intro-text">
+                         <h1 class=" display-4 font-weight-normal animated fadeInUp fast">Welcome Back!<br>Log on to your account.</h1>
+                         <p class="text animated fadeInUp slow">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua.
+                         </p>
+                        <div class="row">
+                             <div class="col-md-6 col-lg-6 col-12">
+                                 <a class="text-decoration-none" href="index.html"><button class="btn btn-lg p-3 rounded-pill w-75 border-0 bg-purple text-white"><small>Back To Home</small></button></a>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 p-3 mt-3">
+                        <div class="row">
+                            <div class="col-12  p-3">
+                                <div class="card border-0 form_card">
+                                    <div class="card-header bg-white">
+                                        <h4 class="float-left text-dark">Log In as Admin</h4>
+                                    </div>
+                                    <div class="card-body p-4">
+                                        <form method="post" class="ed-animate-slideRight" action="php/user-authentication/admin/login.php">
+                                    
+                                            <input type="email" name="email" class="bg-light form-control rounded-pill mb-3 ed-white border-0" placeholder="Enter Email Address" required="">
+                                         
+                                           <div class="input-group rounded-pill border-0 mb-3">
+                                                <input type="password" id="password" name="password" class="form-control border-0 shadow-none bg-light"style="border-top-left-radius:30px; border-bottom-left-radius:30px;" placeholder="Enter Password">
+                                                <div class="input-group-prepend border-0">
+                                                  <button class="input-group-text bg-light border-0" type="button" id="checkpassword" style="border-top-right-radius:30px; border-bottom-right-radius:30px;"><i class="fa fa-eye"></i></button>
+                                                </div>
+                                            </div>
+                                           
+                                            <button type="submit" name="submit" class="btn w-100 rounded-pill  btn-lg bg-green text-white"><small class="font-weight-bold">LOGIN</small></button>
+
+                                        </form>
+                                    </div>
+                                    <div class="card-footer bg-white border-0 p-3">
+                                        <small class="float-left ml-2">No Account?</small>
+                                         <a href="register.html"><button class="btn btn-md bg-purple float-right mb-3 rounded-pill text-white w-50 ed-text-white">Register</button></a>
+                                    </div>
+                                </div>
+                                <center class="mt-3">Back To Home</center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+          <!-- ALL INCLUDED SCRIPTS -->
+  <!-- ==================================================================================================== -->
+      <script src="assets/js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+      <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/js/wow.min.js"></script>
+      <script type="text/javascript" src="assets/js/wow.js"></script>
+      <script type="text/javascript" src="assets/js/custom.js"></script>
+      
+  <!-- ==================================================================================================== -->
+<!-- //ALL INCLUDED SCRIPTS -->
+
+    
+            <script type="text/javascript">
+                $('#checkpassword').click(function(){
+                    if ($('#password').attr('type') == 'password') {
+                        $('#password').attr('type', 'text');
+                    }
+                    else if($('#password').attr('type') == 'text'){
+                        $('#password').attr('type', 'password');
+                    }
+                    $('.fa-eye').toggleClass('fa-eye-slash');
+                });
+            </script>
+
+</body>
+</html>

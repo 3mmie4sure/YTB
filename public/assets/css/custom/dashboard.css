@@ -1,0 +1,177 @@
+
+
+.dashboard_card{
+    background-image: url('./../../img/bg/ytb_header_bg_md.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Sidebar Styles */
+   @media only screen and (orientation: landscape){
+    .main_content_collapsed{
+        position: absolute;
+        left: 250px; 
+        width: calc(100% - 250px);
+        height: 100vh;
+        overflow: auto;
+        background: rgba(94, 91, 239, 0.04);
+        transition: 0.5s ease;
+      }
+  
+  
+      .main_content_expanded{
+  
+          position: absolute;
+          left: 85px; 
+          width: calc(100% - 90px);
+          height: 100vh;
+          height: 100vh;
+          overflow: auto;
+          background: rgba(94, 91, 239, 0.04);
+          transition: 0.4s ease;
+  
+      }
+  
+  
+      .sidebar {
+          height: 100vh;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          padding: 15px;
+          background-color:white;
+          box-shadow: 5px 4px 10px rgba(94, 91, 239, 0.01);
+          overflow-x: hidden;
+          transition: 0.5s;
+          white-space: nowrap;
+      }
+  
+      .sidebar_expanded{
+          width: 250px;
+      }
+      .sidebar_collapsed{
+          width: 85px;
+      }
+      
+      .sidebar a {
+          padding: 15px;
+          width: 100%;
+          text-decoration: none;
+          color:#5E5BEF;
+          height: auto;
+          display: block;
+          font-size: 14px;
+          overflow-x: hidden !important;
+          transition: 0.3s;
+          border-radius: 10px;
+      }
+      .sidebar a.active{
+          background: linear-gradient(92.82deg, rgba(94, 91, 239, 0.1) -10.47%, rgba(94, 91, 239, 0) 517.93%); 
+      }
+      .sidebar a.bottom_link{
+          position: absolute;
+          bottom: 20px;
+          width: 220px;
+      }
+  
+  
+  
+      
+      .sidebar a:hover {
+          background:linear-gradient(92.82deg, rgba(94, 91, 239, 0.04) -10.47%, rgba(94, 91, 239, 0) 517.93%);
+          color: #5E5BEF;
+  
+      }
+
+      .blog_thumbnail{
+          width: 140px;
+          height: 120px;
+          border-radius: 12px;
+      }
+
+
+      
+    .nav-pills{
+        background-color: #5E5BEF; 
+        width: 40% !important;
+        padding: 10px !important;
+        border-radius: 20px !important;
+    }
+
+    .nav-pills > .nav-item > a.nav-link.active{
+        background-color:  rgba(255, 255, 255, 0.3) !important;
+        border-radius: 10px !important;
+    }
+  
+   }
+  
+
+
+
+
+   /* Sidebar Styles */
+   @media only screen and (orientation: portrait){
+    .sidebar {
+        display: none !important;
+     }
+ 
+
+     .bottom_nav{
+         width: 100%;
+         height: auto; 
+         position: fixed;
+         bottom: 0;
+         box-shadow: 10px 4px 40px rgba(15, 79, 193, 0.03);
+         z-index: 9;
+     }
+
+    .main_content_mobile{
+        width: 100% !important;
+        background: rgba(94, 91, 239, 0.04);
+        height: 100vh;
+        overflow: auto;
+    }
+
+    .dashboard_header_text{
+        font-size: 25px !important;
+    }
+    .dashboard_text{
+        font-size: 13px !important;
+    }
+
+    .notification_bell{
+        font-size: 22px !important;
+        margin-top: 15px !important;
+    }
+  
+    .blog_thumbnail{
+        width: 30px;
+        height:30px;
+    }
+
+
+    
+      
+    .nav-pills{
+        background-color: #5E5BEF; 
+        width: 100% !important;
+        padding: 10px !important;
+        border-radius: 20px !important;
+    }
+
+    .nav-pills > .nav-item > a.nav-link.active{
+        background-color:  rgba(255, 255, 255, 0.3) !important;
+        border-radius: 10px !important;
+    }
+     
+  
+   }
+  
+  
+
+
+  
+

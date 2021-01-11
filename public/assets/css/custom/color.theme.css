@@ -1,0 +1,34 @@
+:root{
+    --theme_green : #0AECB3;
+    --theme_purple: #5E5BEF;
+    /* --white_border: border: 15px solid rgba(255, 255, 255, 0.15); */
+    --border_green: .5px solid #0AECB3;
+}
+
+.faded_white{
+    background: linear-gradient(92.46deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 198.95%) !important;
+}
+
+
+.bg_green{
+    background-color: var(--theme_green) !important;
+}
+
+.border_green{
+    border: 10px solid var(--border_green) !important;
+}
+
+.bg_purple{
+    background-color: var(--theme_purple);
+}
+.text_purple{
+    color: var(--theme_purple) !important;
+}
+.text_green{
+    color: var(--theme_green) !important;
+}
+
+
+body > p {
+    color: rgba(0, 0, 0, 0.4);
+}

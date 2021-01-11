@@ -1,0 +1,39 @@
+@font-face{
+    font-family: NewFont;
+    src: url('./../../font/made_tommy/regular.otf'),
+        url('./../../font/made_tommy/extrabold.otf'),
+        url('./../../font/made_tommy/thin.otf');
+        
+}
+
+html, body{
+    font-family: 'NewFont' !important;
+}
+
+
+p {
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, .4) !important;
+
+}
+.navbar-nav > li {
+    width: 100px !important;
+    text-align: center !important;
+    border-radius: 10px;
+    transition: .5s ease;
+}
+
+
+.navbar-nav>li:hover{
+    background-color: rgba(225, 225, 225, .19) !important;
+    transform: scale(1.08);
+
+}
+
+.active_link{
+    background-color: rgba(225, 225, 225, .19) !important;
+    transform: scale(1.08);
+    
+}
+
+

@@ -1,0 +1,28 @@
+:root{
+    --button_border: 15px solid;
+    --button_transition: .6s ease;
+    --button_border_radius: 20px;
+    /* --border- */
+}
+
+
+button{
+    border-radius: var(--button_border_radius) !important;
+
+}
+
+.header_cta_button{
+    transition: 0.5s;
+    width: 246px;
+    outline: none;
+    height: 70px;
+    border: none;
+    background-color:rgba(225, 225, 225, 0.2);
+    border-radius: 20px;
+}
+.header_cta_button:hover{
+    border: 9px solid rgba(225, 225, 225, 0.2);
+    background-color:rgba(255, 255, 255, 0.05);
+/* background: linear-gradient(94.11deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 111.95%); */
+
+}

@@ -1,0 +1,231 @@
+
+
+/* Extra large Screens */
+@media only screen and (min-width: 1400px){
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_xlg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_xlg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+}
+
+
+/* Large Screens */
+
+@media only screen and (min-width:1280px) and (max-width: 1400px){
+    
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_lg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .project_bg{
+
+        background-image: url('./../../img/bg/project_bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_lg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_md.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_sm.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .header_illustration{
+        width: 250px;
+        height: 250px;
+    }
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_sm.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+}
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 320px){
+    .header_bg{
+        background-image: url('./../../img/bg/ytb_header_bg_sm.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .header_illustration{
+        width: 100px;
+        height: 100px;
+    }
+    .header_jumbo_text{font-size: 36px !important;}
+
+    .cta_bg{
+
+        background-image: url('./../../img/bg/codeNow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .login_bg{
+        background-image: url('./../../img/bg/loginsignupbg_sm.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+.footer_bg{
+
+}
+
+.project_bg{
+
+}

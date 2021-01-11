@@ -1,0 +1,116 @@
+/* Importing Main Stylesheets */
+@import url('./custom/font.css');
+@import url('./bootstrap.css');
+@import url('./animate.css');
+@import url('./../icons/fa/css/all.css');
+
+
+/* Importing Mdified Stylesheets */
+@import url('./custom/color.theme.css');
+@import url('./custom/button.theme.css');
+@import url('./custom/background.theme.css');
+@import url('./custom/dashboard.css');
+@import url('./custom/tables.css');
+/* @import url('./custom/chat.css'); */
+
+
+
+html,body{
+    overflow-x: hidden !important;
+}
+
+.image_icon_sm{
+    width: 50px;
+    height: 50px;
+}
+
+
+.card{
+    border-radius: 21px !important;
+    border:none;
+    box-shadow: 0px 2px 20px rgba(94, 91, 239, 0.03);
+}
+
+
+/* Form and form buttons */
+
+.custom_form_card{
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 25px !important;
+}
+
+
+.custom_form_input{
+    width: 100% !important;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1) !important;
+    font-style: normal !important;
+    font-weight: lighter !important;
+    border:none;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    border-radius: 17px !important;
+    color: white;
+}
+
+.custom_form_input_wbg{
+    width: 100% !important;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.04) !important;
+    font-style: normal !important;
+    font-weight: lighter !important;
+    border:none;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    border-radius: 17px !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+
+.custom_form_input, .custom_form_input_wbg, .custom_submit_btn:focus{
+    border:none;
+    outline: none;
+}
+
+
+.custom_form_input::placeholder{
+    color:rgba(225, 225, 225, 0.8) !important;
+}
+
+.custom_submit_btn{
+    width: 100% !important;
+    padding: 20px;
+    border-radius: 12px !important;
+    border:none;
+    transition: .5s ease;
+    font-weight: bold;
+    
+}
+.custom_submit_btn:hover{
+    padding: 15px;
+    border: 10px solid  rgba(255, 255, 255, 0.4);
+}
+
+
+
+.custom_alert{
+    widows: 100%;
+    padding:16px;
+    border-radius: 17px !important;
+    font-size: 14px;
+}
+
+.alert_success{
+    background-color: rgba(10, 236, 179, 0.15);
+    border: 1px solid #0AECB3;
+}
+
+/* 
+
+input[type=text]{
+    border-radius: 15px;
+    border: 0;
+    font-size: 14px;
+    padding: 18px;
+} */
