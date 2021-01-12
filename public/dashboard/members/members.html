@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- META TAGS -->
+		<!-- ==================================================================================================== -->
+		  <meta name="description" content="">
+		  <meta name="keywords" content="">
+		  <meta name="author" content="Edsofta">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- ================================================================================================== -->
+		<!-- //META TAGS -->
+
+		<!-- PAGE TITLE -->
+		<!-- ================================================================================================== -->
+			<title>Tech Benders | Admin Dashboard</title>
+		<!-- ================================================================================================== -->
+		<!-- //PAGE TITLE -->
+
+		<!-- ALL INCLUDED STYLESHEETS -->
+		<!-- =================================================================================================== -->
+		  <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+		<!-- =================================================================================================== -->
+		<!-- //ALL INCLUDED STYLESHEETS -->
+
+
+</head>
+<body class="animated fadeIn">
+<!-- Dashboard Sidebar -->
+    <div class="sidebar sidebar_expanded mb-4">
+        <div class="row" style="height:15vh;">
+            <div class="col-12">
+                <h3 id="viewController"><i class="fa fa-align-left"></i></h3>
+            </div>
+
+        </div>
+ 
+        <a href="./" class="mb-4"><i class="fa fa-columns h5"></i> <b class="ml-4">Dashboard</b></a>
+        <a href="./blog.html" class="active mb-4"><i class="fa fa-blog h5"></i> <b class="ml-4">Blog Posts</b></a>
+        <a href="./verified_members.html" class="mb-4"><i class="fa fa-users h5"></i> <b class="ml-4">Verified Members</b></a>
+        <a href="./unverified_members.html" class="mb-4"><i class="fa fa-user-slash h5"></i> <b class="ml-4">Unverified Members</b></a>
+        <a href="./chat.html" class="mb-4"><i class="fa fa-comments h5"></i> <b class="ml-4">Forum</b></a>
+
+        <a class="bottom_link"><i class="fa fa-sign-out-alt h5"></i> <b class="ml-5">Log Out</b></a>
+
+
+    </div>
+
+    <!-- Dashboard Sidebar Push off -->
+    <div class="main_content_collapsed main_content_mobile">
+
+        <!-- Mobile Side Bar -->
+        <div class="bottom_nav d-lg-none d-md-block d-block bg-white">
+           <div class="row p-2">'
+               
+                <div class="col text-center mt-2">
+                    <a><p><i class="fa fa-columns h4"></i></p></a>
+                </div>
+
+                <div class="col text-center mt-2">
+                    <a><p><i class="fa fa-blog text_purple h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-user-slash h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-users h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-comments h4"></i></p></a>
+                 </div>
+           </div>
+        </div>
+
+
+
+        <!--Dashboard  Top Bar -->
+        <div class="container p-lg-4 p-2">
+            <div class="row p-lg-0 p-3">
+                <div class="col-12 col-lg-12 col-md-12 mt-3">
+                    <!-- Greetings -->
+                    <div class="row">
+                        <div class="col-lg-5 col-md-8 col-10">
+                            <h1 class="dashboard_header_text text_purple"><b>All Members</b></h1>
+                            <p class="dashboard_text">
+                                View All Members of the Community
+                            </p>
+                        </div>
+
+                        
+                        <!-- Search and Notifications -->
+                        <div class="col-lg-5 offset-lg-2 offset-0 col-2">
+                            <div class="row">
+                                <div class="col-lg-10 d-none d-lg-block">
+                                    <input type="search" class="custom_form_input text-dark bg-light" placeholder="Search Dashboard...">
+                                </div>
+                                
+                                <div class=" col-lg-2 col-12 text-center align-items-center justify-content-center" style="height: inherit;">
+                                    <i class="far fa-bell notification_bell mt-2 h3"></i>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- //Dashboard Top Bar -->
+
+
+        <!-- Dashboard Cards -->
+        <div class="container p-lg-4 p-2">
+            <div class="row p-lg-0 p-3">
+                <div class="col-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item w-50 text-center">
+                          <a class="nav-link active text-white" id="pills-home-tab" data-toggle="pill" href="#verified_members" role="tab" aria-controls="pills-home" aria-selected="true"><small>Verified <i class="fa fa-user-check"></i></small></a>
+                        </li>
+                        <li class="nav-item w-50 text-center">
+                          <a class="nav-link text-white" id="pills-profile-tab" data-toggle="pill" href="#unverified_members" role="tab" aria-controls="pills-profile" aria-selected="false"><small>Unverified <i class="fa fa-user-slash"></i></small></a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="verified_members" role="tabpanel" aria-labelledby="pills-home-tab">
+                                
+                                <div class="col-12 col-lg-12 col-md-12 p-0">
+                                    <div class="card bg-white p-2 p-lg-4">
+                                        <div class="card-body p-4">
+                                            
+                                            <div class="row">
+                                                <!-- What i would loop through with apis -->
+                                                <div class="col-12 card bg-light p-4 mb-4" data-toggle="collapse" data-target="#full_notification">
+                                                   
+                                                   <div class="row">
+                                                        <div class="col-lg-11 col-10">
+                                                            <h6 class="text_purple m-0 p-0">Adeeko Emmanuel</h6>
+                                                            <small>emmy4sure.web@gmail.com</small>
+                                                        </div>
+                                                        <div class="col-lg-1 col-2 text-center">
+                                                            <h5><i class="fa fa-check-circle"></i></h5>
+                                                        </div>
+                                                   </div>
+                                            
+                                                    <div class="collapse w-100" id="full_notification">
+                                                        <small class="text-dark">
+                                                            A few Members Have Joined the Community. They need to be verified to have full access to the community.
+                                                        </small>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- What i would loop through with apis -->
+                                                <div class="col-12 card bg-light p-4 mb-4" data-toggle="collapse" data-target="#full_notification">
+                                                   
+                                                    <div class="row">
+                                                         <div class="col-lg-11 col-10">
+                                                             <h6 class="text_purple m-0 p-0">Adeeko Emmanuel</h6>
+                                                             <small>emmy4sure.web@gmail.com</small>
+                                                         </div>
+                                                         <div class="col-lg-1 col-2 text-center">
+                                                             <h5><i class="fa fa-check-circle"></i></h5>
+                                                         </div>
+                                                    </div>
+                                             
+                                                     <div class="collapse w-100" id="full_notification">
+                                                         <small class="text-dark">
+                                                             A few Members Have Joined the Community. They need to be verified to have full access to the community.
+                                                         </small>
+                                                     </div>
+                                                 </div>
+
+
+                                                 
+                                            </div>
+                
+                
+                                            <a class="float-right text_purple">VIEW ALL</a>
+                
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+
+                         <!--  -->
+                         <div class="tab-pane fade" id="unverified_members" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="pending_posts">
+                                 Pending Posts
+                            </div>
+                        </div>  
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -->
+    </div>
+        
+	
+
+
+	
+
+
+
+
+
+<!-- ALL INCLUDED SCRIPTS -->
+	<!-- ==================================================================================================== -->
+			 <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+			 <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+			<script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.js"></script> 
+			<!-- <script type="module" src="assets/js/custom.js"></script> -->
+
+
+			<script>
+
+                toggleView = () =>
+                {
+                    $('#viewController').click(()=>
+                    {
+                        const sidebar = $('.sidebar_expanded');
+                        const main_content = $('.main_content_collapsed');
+
+                        sidebar.toggleClass('sidebar_collapsed');
+                        main_content.toggleClass('main_content_expanded');
+                    });
+                    
+                }
+
+
+                toggleView();
+				
+				
+			</script>
+		
+
+	<!-- ==================================================================================================== -->
+<!-- //ALL INCLUDED SCRIPTS -->
+
+
+
+
+
+</body>
+</html>
+
+

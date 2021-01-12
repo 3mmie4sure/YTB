@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- META TAGS -->
+		<!-- ==================================================================================================== -->
+		  <meta name="description" content="">
+		  <meta name="keywords" content="">
+		  <meta name="author" content="Edsofta">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- ================================================================================================== -->
+		<!-- //META TAGS -->
+
+		<!-- PAGE TITLE -->
+		<!-- ================================================================================================== -->
+			<title>Tech Benders | Admin Dashboard View Blog Posts</title>
+		<!-- ================================================================================================== -->
+		<!-- //PAGE TITLE -->
+
+		<!-- ALL INCLUDED STYLESHEETS -->
+		<!-- =================================================================================================== -->
+		  <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+		<!-- =================================================================================================== -->
+		<!-- //ALL INCLUDED STYLESHEETS -->
+
+
+</head>
+<body class="animated fadeIn">
+<!-- Dashboard Sidebar -->
+    <div class="sidebar sidebar_expanded mb-4">
+        <div class="row" style="height:15vh;">
+            <div class="col-12">
+                <h3 id="viewController"><i class="fa fa-align-left"></i></h3>
+            </div>
+
+        </div>
+ 
+        <a href="./" class="mb-4"><i class="fa fa-columns h5"></i> <b class="ml-4">Dashboard</b></a>
+        <a href="./blog.html" class="active mb-4"><i class="fa fa-blog h5"></i> <b class="ml-4">Blog Posts</b></a>
+        <a href="./verified_members.html" class="mb-4"><i class="fa fa-users h5"></i> <b class="ml-4">Verified Members</b></a>
+        <a href="./unverified_members.html" class="mb-4"><i class="fa fa-user-slash h5"></i> <b class="ml-4">Unverified Members</b></a>
+        <a href="./chat.html" class="mb-4"><i class="fa fa-comments h5"></i> <b class="ml-4">Forum</b></a>
+
+        <a class="bottom_link"><i class="fa fa-sign-out-alt h5"></i> <b class="ml-5">Log Out</b></a>
+
+
+    </div>
+
+    <!-- Dashboard Sidebar Push off -->
+    <div class="main_content_collapsed main_content_mobile">
+
+        <!-- Mobile Side Bar -->
+        <div class="bottom_nav d-lg-none d-md-block d-block bg-white">
+           <div class="row p-2">'
+               
+                <div class="col text-center mt-2">
+                    <a><p><i class="fa fa-columns h4"></i></p></a>
+                </div>
+
+                <div class="col text-center mt-2">
+                    <a><p><i class="fa fa-blog text_purple h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-user-slash h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-users h4"></i></p></a>
+                 </div>
+
+                 <div class="col text-center mt-2">
+                    <a><p class="m-0"><i class="fa fa-comments h4"></i></p></a>
+                 </div>
+           </div>
+        </div>
+
+
+
+        <!--Dashboard  Top Bar -->
+        <div class="container p-lg-4 p-2">
+            <div class="row p-lg-0 p-3">
+                <div class="col-12 col-lg-12 col-md-12 mt-3">
+                    <!-- Greetings -->
+                    <div class="row">
+                        <div class="col-lg-5 col-md-8 col-10">
+                            <h1 class="dashboard_header_text text_purple"><b>Blog Activities.</b></h1>
+                            <p class="dashboard_text">
+                                Blog Posts. View / Edit / Ban Blog Activities
+                            </p>
+                        </div>
+
+                        
+                        <!-- Search and Notifications -->
+                        <div class="col-lg-5 offset-lg-2 offset-0 col-2">
+                            <div class="row">
+                                <div class="col-lg-10 d-none d-lg-block">
+                                    <input type="search" class="custom_form_input text-dark bg-light" placeholder="Search Dashboard...">
+                                </div>
+                                
+                                <div class=" col-lg-2 col-12 text-center align-items-center justify-content-center" style="height: inherit;">
+                                    <i class="far fa-bell notification_bell mt-2 h3"></i>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- //Dashboard Top Bar -->
+
+
+        <!-- Dashboard Cards -->
+        <div class="container p-lg-4 p-2">
+            <div class="row p-lg-0 p-3">
+                <div class="col-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item w-25">
+                          <a class="nav-link active text-white text-center" id="pills-home-tab" data-toggle="pill" href="#allposts" role="tab" aria-controls="pills-home" aria-selected="true"><small>All</small></a>
+                        </li>
+                        <li class="nav-item w-25">
+                          <a class="nav-link text-white text-center" id="pills-profile-tab" data-toggle="pill" href="#pendingposts" role="tab" aria-controls="pills-profile" aria-selected="false"><small>Pending</small></a>
+                        </li>
+                        <li class="nav-item w-25">
+                          <a class="nav-link text-white text-center" id="pills-contact-tab" data-toggle="pill" href="#bannedposts" role="tab" aria-controls="pills-contact" aria-selected="false"><small>Banned</small></a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link text-white text-center" id="pills-contact-tab" data-toggle="pill" href="#verifiedposts" role="tab" aria-controls="pills-contact" aria-selected="false"><small>Verified</small></a>
+                          </li>
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="allposts" role="tabpanel" aria-labelledby="pills-home-tab">
+                            
+                            <div class="all_posts">
+                                 <!-- Blog Thumbnail Card -->
+                                <div class="card bg-white mb-5">
+                                    <div class="card-body p-4">
+            
+                                        <div class="row">
+                                            <div class="col-lg-2 col-12 d-none d-lg-block d-md-block">
+                                                <img class="blog_thumbnail" src="./../../assets/img/illsutrations/solve_problems.png">
+                                            </div>
+
+                                            <div class="col-lg-8 col-12">
+                                                <h4><b>Javascript Frameworks</b></h4>
+                                                <small>
+                                                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+                                                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs....
+                                                </small>
+                                            </div>
+                                            <div class="col-lg-2 d-none d-lg-block col-12 text-center">
+                                                <h1 class="display-3"><i class="fa fa-check-circle text_green"></i></h1>
+                                            </div>        
+
+                                        </div>
+        
+                                                    
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-5 col-12">
+                                                <p class="mt-4"><b>Posted By - Adeeko Emmanuel</b></p>
+                                            </div>
+            
+                                            <div class="col-lg-3 col-md-4 col-12">
+                                                <p class="mt-4"><b>Date: Posted - 21 / 02 / 2021</b></p>
+                                            </div>
+            
+                                            <div class="col-lg-6 col-md-3">
+                                                <p class="mt-4 float-right mr-4"><a href="#" class="text_purple"><b>View Post <i class="fa fa-arrow-right ml-3"></i></b></a></p>
+                                            </div>
+                                        </div>
+                                                        
+                                                        
+                                    </div>
+                                            
+                                </div>
+                            </div>
+                           
+
+
+                        </div>
+
+                         <!--  -->
+                         <div class="tab-pane fade" id="pendingposts" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="pending_posts">
+                                 Pending Posts
+                            </div>
+                        </div>  
+
+                        <!--  -->
+                        <div class="tab-pane fade" id="bannedposts" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="banned_posts">
+                                Banned Posts
+                            </div>
+                        </div>
+
+                        <!--  -->
+                        <div class="tab-pane fade" id="verifiedposts" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <div class="verified_posts">
+                                Verified Posts
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -->
+    </div>
+        
+	
+
+
+	
+
+
+
+
+
+<!-- ALL INCLUDED SCRIPTS -->
+	<!-- ==================================================================================================== -->
+			 <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+			 <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+			<script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.js"></script> 
+			<!-- <script type="module" src="assets/js/custom.js"></script> -->
+
+
+			<script>
+
+                toggleView = () =>
+                {
+                    $('#viewController').click(()=>
+                    {
+                        const sidebar = $('.sidebar_expanded');
+                        const main_content = $('.main_content_collapsed');
+
+                        sidebar.toggleClass('sidebar_collapsed');
+                        main_content.toggleClass('main_content_expanded');
+                    });
+                    
+                }
+
+
+                toggleView();
+				
+				
+			</script>
+		
+
+	<!-- ==================================================================================================== -->
+<!-- //ALL INCLUDED SCRIPTS -->
+
+
+
+
+
+</body>
+</html>
+
+

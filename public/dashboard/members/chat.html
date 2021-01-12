@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <!-- META TAGS -->
+		<!-- ==================================================================================================== -->
+		  <meta name="description" content="">
+		  <meta name="keywords" content="">
+		  <meta name="author" content="Edsofta">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- ================================================================================================== -->
+		<!-- //META TAGS -->
+
+		<!-- PAGE TITLE -->
+		<!-- ================================================================================================== -->
+			<title>Tech Benders | Admin Dashboard | Blogs</title>
+		<!-- ================================================================================================== -->
+		<!-- //PAGE TITLE -->
+
+		<!-- ALL INCLUDED STYLESHEETS -->
+		<!-- =================================================================================================== -->
+		  <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+		<!-- =================================================================================================== -->
+		<!-- //ALL INCLUDED STYLESHEETS -->
+
+
+</head>
+<body class="animated fadeIn">
+<!-- Dashboard Sidebar -->
+    <div class="sidebar sidebar_expanded mb-4">
+        <div class="row" style="height:15vh;">
+            <div class="col-12">
+                <h3 id="viewController"><i class="fa fa-bars"></i></h3>
+            </div>
+
+        </div>
+ 
+        <a href="./" class="mb-4"><i class="fa fa-tachometer-alt h5"></i> <b class="ml-4">Dashboard</b></a>
+        <a href="./blog.html" class="mb-4"><i class="fa fa-blog h5"></i> <b class="ml-4">Blog Posts</b></a>
+        <a href="./verified_members.html" class="mb-4"><i class="fa fa-users h5"></i> <b class="ml-4">Verified Members</b></a>
+        <a href="./unverified_members.html" class="mb-4"><i class="fa fa-user-slash h5"></i> <b class="ml-4">Unverified Members</b></a>
+        <a href="./chat.html" class="mb-4 active"><i class="fa fa-comments h5"></i> <b class="ml-4">Forum</b></a>
+
+        <a class="bottom_link"><i class="fa fa-sign-out-alt h5"></i> <b class="ml-5">Log Out</b></a>
+
+
+    </div>
+
+    <!-- Dashboard Sidebar Push off -->
+    <div class="main_content_collapsed">
+
+        <!--Dashboard  Top Bar -->
+        <div class="container p-4">
+            <div class="row p-4">
+                <div class="col-12 col-lg-12 col-md-12 mt-3">
+                    <!-- Greetings -->
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <h1 class="dashboard_header_text text_purple"><b>Chats</b></h1>
+                            <p>
+                                Adeeko, Chat with members of the community.
+                            </p>
+                        </div>
+                        
+                        <!-- Search and Notifications -->
+                        <div class="col-lg-5 offset-lg-2">
+                            <div class="row">
+                                <div class="col-10">
+                                    <!-- <input class="w-75 float-right" type="search"> -->
+                                </div>
+                                <div class="col-2">
+                                    <i class="far fa-bell h3"></i>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- //Dashboard Top Bar -->
+
+        <div class="container p-4">
+            <div>
+                <div class="col-12">
+                    <div class="card  p-4">
+                        <h5>No Forums to Supervise</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -->
+    </div>
+        
+	<!-- //What We do Section -->
+
+
+	
+
+
+
+
+
+<!-- ALL INCLUDED SCRIPTS -->
+	<!-- ==================================================================================================== -->
+			 <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+			 <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
+			<script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.min.js"></script>
+			<script type="text/javascript" src="../../assets/js/wow.js"></script> 
+			<!-- <script type="module" src="assets/js/custom.js"></script> -->
+
+
+			<script>
+
+                toggleView = () =>
+                {
+                    $('#viewController').click(()=>
+                    {
+                        const sidebar = $('.sidebar_expanded');
+                        const main_content = $('.main_content_collapsed');
+
+                        sidebar.toggleClass('sidebar_collapsed');
+                        main_content.toggleClass('main_content_expanded');
+                    });
+                    
+                }
+
+
+                toggleView();
+				
+				
+			</script>
+		
+
+	<!-- ==================================================================================================== -->
+<!-- //ALL INCLUDED SCRIPTS -->
+
+
+
+
+
+</body>
+</html>
+
+
