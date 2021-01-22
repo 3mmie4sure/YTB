@@ -73,6 +73,12 @@
 
     }
 
+    .header_illustration{
+        width: 220px;
+        height: 220px;
+    }
+
+
     
 }
 
@@ -84,6 +90,11 @@
         background-size: cover;
         width: 100%;
         height: 100vh;
+    }
+
+    .header_illustration{
+        width: 80px;
+        height: 80px;
     }
 
     .cta_bg{
@@ -188,9 +199,10 @@
     }
 
     .header_illustration{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
+
     .header_jumbo_text{font-size: 36px !important;}
 
     .cta_bg{
